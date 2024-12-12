@@ -21,7 +21,7 @@ const ProductScreen = () => {
    </Link>
    <Row>
      <Col md={5}>
-     <Image src={products.image} alt={products.name} fluid/>
+     <Image src={product.image} alt={products.name} fluid/>
      </Col>
      <Col md={4}>
      <ListGroup variant='flush'>
